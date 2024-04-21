@@ -55,3 +55,5 @@ example : ∀ m n : Nat, Even n → Even (m * n) := by
 example : ∀ m n : Nat, Even n → Even (m * n) := by
   intros; simp [*, parity_simps]
 
+#check mul_add
+#check mul_left_comm
